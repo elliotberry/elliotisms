@@ -40,7 +40,7 @@ const formatDateToNice = d => {
   const monthIndex = date.getMonth();
   const year = date.getFullYear();
 
-  return `${months[monthIndex]} ${getOrdinalSuffix(day)}, ${year}, ${hour}:${minute.toString().padStart(2, '0')} ${ampm} & ${second}s`;
+  return `${months[monthIndex]} ${getOrdinalSuffix(day)}, ${year}, ${hour}:${minute.toString().padStart(2, '0')}${ampm.toLowerCase()} & ${second}s`;
 };
 
 const getDateTime = () => {
