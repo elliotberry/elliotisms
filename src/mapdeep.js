@@ -6,12 +6,14 @@ async function mapDeep(obj, func, parent = null, key = null, path = '') {
 
   if (Array.isArray(obj)) {
     result = [];
-    for (let i = 0; i < obj.length; i++) {
+    i = 0;
+    for await (elem of obj) {
       result[i] = await mapDeep(obj[i], func, obj, i, `${currentPath}[${i}]`);
+      i++;
     }
   } else if (typeof obj === 'object' && obj !== null) {
     result = {};
-    for (const [k, v] of Object.entries(obj)) {
+    for await (const [k, v] of Object.entries(obj)) {
       result[k] = await mapDeep(v, func, obj, k, `${currentPath}.${k}`);
     }
   } else {
