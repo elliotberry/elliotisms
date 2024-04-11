@@ -1,4 +1,4 @@
-import exists from './exists';
+import exists from './exists.js';
 import fs from "node:fs/promises";
 
 const createFolderIfItDoesNotExist = (path) => {
