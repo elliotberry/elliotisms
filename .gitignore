@@ -5,10 +5,10 @@
 *.exe
 *.o
 *.so
-
+test.txt
 # Logs and databases
 *.log
-
+./test_directory
 # OS generated files #
 .DS_Store
 .AppleDouble
