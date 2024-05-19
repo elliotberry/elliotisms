@@ -7,13 +7,15 @@
     "engines": {
         "node": ">=20"
     },
-    "version": "0.0.14",
+    "version": "0.0.15",
     "os": [
         "darwin",
         "linux"
     ],
     "type": "module",
-    "dependencies": {},
+    "dependencies": {
+        "elliotisms": "^0.0.14"
+    },
     "devDependencies": {
         "@stylistic/eslint-plugin-js": "^1.7.0",
         "eslint": "^9.0.0",
