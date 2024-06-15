@@ -7,14 +7,14 @@
     "engines": {
         "node": ">=20"
     },
-    "version": "0.0.19",
+    "version": "0.0.23",
     "os": [
         "darwin",
         "linux"
     ],
     "type": "module",
     "dependencies": {
-        "elliotisms": "^0.0.14"
+        "text-case": "^1.0.9"
     },
     "devDependencies": {
         "@stylistic/eslint-plugin-js": "^1.7.0",
