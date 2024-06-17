@@ -80,7 +80,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.5.0":
+"@eslint/js@npm:9.5.0, @eslint/js@npm:^9.5.0":
   version: 9.5.0
   resolution: "@eslint/js@npm:9.5.0"
   checksum: 10c0/dacf51ec2d5b4c8d1315d21a0ff761235d9e39b2391cb945138c58dc512a6c18949c40b644235f5c4fdf5b637ef8f881214acc496dddf46b718529bf22af42ac
@@ -1303,6 +1303,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "elliotisms@workspace:."
   dependencies:
+    "@eslint/js": "npm:^9.5.0"
     "@stylistic/eslint-plugin-js": "npm:^1.7.2"
     eslint: "npm:^9.0.0"
     eslint-config-prettier: "npm:^9.1.0"

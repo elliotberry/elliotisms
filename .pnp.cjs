@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@eslint/js", "npm:9.5.0"],\
           ["@stylistic/eslint-plugin-js", "virtual:8fc3bcc8d9219d11f3216de42652e833ce84b574b65650ce208728a911be453518c054cdb044a01e299f787176e30a51077148f2f792dcb282ca26cc1d9359f6#npm:1.8.1"],\
           ["eslint", "npm:9.5.0"],\
           ["eslint-config-prettier", "virtual:8fc3bcc8d9219d11f3216de42652e833ce84b574b65650ce208728a911be453518c054cdb044a01e299f787176e30a51077148f2f792dcb282ca26cc1d9359f6#npm:9.1.0"],\
@@ -1628,6 +1629,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["elliotisms", "workspace:."],\
+          ["@eslint/js", "npm:9.5.0"],\
           ["@stylistic/eslint-plugin-js", "virtual:8fc3bcc8d9219d11f3216de42652e833ce84b574b65650ce208728a911be453518c054cdb044a01e299f787176e30a51077148f2f792dcb282ca26cc1d9359f6#npm:1.8.1"],\
           ["eslint", "npm:9.5.0"],\
           ["eslint-config-prettier", "virtual:8fc3bcc8d9219d11f3216de42652e833ce84b574b65650ce208728a911be453518c054cdb044a01e299f787176e30a51077148f2f792dcb282ca26cc1d9359f6#npm:9.1.0"],\

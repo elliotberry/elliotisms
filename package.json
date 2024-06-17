@@ -7,7 +7,7 @@
     "engines": {
         "node": ">=20"
     },
-    "version": "0.0.25",
+    "version": "0.0.27",
     "keywords": [
         "radical",
         "utilities",
@@ -30,6 +30,7 @@
         "release": "release-it"
     },
     "devDependencies": {
+        "@eslint/js": "^9.5.0",
         "@stylistic/eslint-plugin-js": "^1.7.2",
         "eslint": "^9.0.0",
         "eslint-config-prettier": "^9.1.0",
