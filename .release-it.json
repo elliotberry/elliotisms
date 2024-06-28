@@ -1,11 +1,5 @@
 {
   "git": {
     "commitMessage": "chore: release v${version}"
-  },
-  "plugins": {
-    "@release-it/bumper": {
-      "in": "package.json",
-      "out": "package.json"
-    }
   }
 }
