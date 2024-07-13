@@ -1,70 +1,95 @@
 {
-    "name": "elliotisms",
-    "description": "reusable components for the dumb shit i work on all the time.",
-    "author": "ɛʟʟɨօȶ b  =^._.^= ∫ <elliot@email.gd>",
-    "license": "The Unlicense",
-    "main": "index.js",
-    "engines": {
-        "node": ">=20"
-    },
-    "version": "0.0.34",
-    "keywords": [
-        "radical",
-        "utilities",
-        "util",
-        "node22",
-        "modern",
-        "anime",
-        "illegal",
-        "marijuana"
-    ],
-    "os": [
-        "darwin",
-        "linux"
-    ],
-    "type": "module",
-    "dependencies": {
-        "text-case": "^1.0.9"
-    },
-    "scripts": {
-        "release": "release-it --ci"
-    },
-    "exports": {
-        ".": "./index.js",
-        "xxhash": "lib/xxhash.js"
-    },
-    "devDependencies": {
-        "@eslint/js": "^9.5.0",
-        "@release-it/bumper": "^6.0.1",
-        "@stylistic/eslint-plugin-js": "^1.7.2",
-        "eslint": "^9.0.0",
-        "eslint-config-prettier": "^9.1.0",
-        "eslint-plugin-perfectionist": "^2.10.0",
-        "eslint-plugin-prettier": "^5.1.3",
-        "eslint-plugin-simple-import-sort": "^12.1.0",
-        "eslint-plugin-unicorn": "^53.0.0",
-        "prettier": "^3.2.5",
-        "release-it": "^17.3.0"
-    },
-    "prettier": {
-        "arrowParens": "always",
-        "bracketSameLine": true,
-        "bracketSpacing": true,
-        "semi": false,
-        "experimentalTernaries": true,
-        "singleQuote": false,
-        "jsxSingleQuote": false,
-        "quoteProps": "as-needed",
-        "trailingComma": "none",
-        "singleAttributePerLine": false,
-        "htmlWhitespaceSensitivity": "css",
-        "vueIndentScriptAndStyle": false,
-        "proseWrap": "preserve",
-        "insertPragma": false,
-        "printWidth": 80,
-        "requirePragma": false,
-        "tabWidth": 2,
-        "useTabs": false,
-        "embeddedLanguageFormatting": "auto"
-    }
+  "name": "elliotisms",
+  "description": "reusable atomic functions for the dumb shit i reuse all the time. only about half are jokes.",
+  "author": "ɛʟʟɨօȶ b  =^._.^= ∫ <elliot@email.gd>",
+  "license": "The Unlicense",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "version": "0.0.34",
+  "keywords": [
+    "radical",
+    "utilities",
+    "util",
+    "node22",
+    "modern",
+    "anime",
+    "illegal",
+    "marijuana"
+  ],
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "type": "module",
+  "dependencies": {
+    "text-case": "^1.0.9"
+  },
+  "scripts": {
+    "release": "release-it --ci"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./eslint-config": "./eslint.config.js",
+    "./create-build-number": "./lib/create-build-number.js",
+    "./create-test-directory-with-files": "./lib/create-test-directory-with-files.js",
+    "./createFolderIfItDoesNotExist": "./lib/createFolderIfItDoesNotExist.js",
+    "./delete-directory-and-files": "./lib/delete-directory-and-files.js",
+    "./exec": "./lib/exec.js",
+    "./exists": "./lib/exists.js",
+    "./fdir": "./lib/fdir.js",
+    "./fuzzy-array-includes": "./lib/fuzzy-array-includes.js",
+    "./get-script-path": "./lib/get-script-path.js",
+    "./kosher-string": "./lib/kosher-string.js",
+    "./mapdeep": "./lib/mapdeep.js",
+    "./middleware": "./lib/middleware",
+    "./minutes-until-420": "./lib/minutes-until-420.js",
+    "./nice-date": "./lib/nice-date.js",
+    "./nice-milliseconds": "./lib/nice-milliseconds.js",
+    "./promise-batch-all": "./lib/promise-batch-all.js",
+    "./replace-all": "./lib/replace-all.js",
+    "./return-safe-filepath": "./lib/return-safe-filepath.js",
+    "./slugify": "./lib/slugify.js",
+    "./the-epoch": "./lib/the-epoch.js",
+    "./truncate-filename": "./lib/truncate-filename.js",
+    "./xxhash": "./lib/xxhash.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@release-it/bumper": "^6.0.1",
+    "@stylistic/eslint-plugin-js": "^1.7.2",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-perfectionist": "^2.10.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-sonarjs": "^1.0.3",
+    "eslint-plugin-no-secrets": "^1.0.2",
+    "eslint-plugin-security": "^3.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "eslint-plugin-unicorn": "^53.0.0",
+    "prettier": "^3.2.5",
+    "release-it": "^17.3.0"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSameLine": true,
+    "bracketSpacing": true,
+    "semi": false,
+    "experimentalTernaries": true,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "quoteProps": "as-needed",
+    "trailingComma": "none",
+    "singleAttributePerLine": false,
+    "htmlWhitespaceSensitivity": "css",
+    "vueIndentScriptAndStyle": false,
+    "proseWrap": "preserve",
+    "insertPragma": false,
+    "printWidth": 80,
+    "requirePragma": false,
+    "tabWidth": 2,
+    "useTabs": false,
+    "embeddedLanguageFormatting": "auto"
+  }
 }
