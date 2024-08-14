@@ -54,6 +54,7 @@
     "./slugify": "./lib/slugify.js",
     "./the-epoch": "./lib/the-epoch.js",
     "./truncate-filename": "./lib/truncate-filename.js",
+    "./yoctoid": "./lib/yoctoid.js",
     "./xxhash": "./lib/xxhash.js"
   },
   "devDependencies": {
