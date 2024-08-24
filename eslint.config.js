@@ -1,5 +1,6 @@
 import js from '@eslint/js'
 import noSecrets from 'eslint-plugin-no-secrets'
+import packageJson from "eslint-plugin-package-json/configs/recommended";
 import perfectionistNatural from 'eslint-plugin-perfectionist/configs/recommended-natural'
 import pluginSecurity from 'eslint-plugin-security'
 import is from 'eslint-plugin-simple-import-sort'
@@ -11,6 +12,7 @@ export default [
     js.configs.recommended,
     pluginSecurity.configs.recommended,
     sonarjs.configs.recommended,
+    packageJson,
     {
         files: ['**/*.js'],
         languageOptions: {

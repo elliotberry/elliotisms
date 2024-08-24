@@ -1,13 +1,7 @@
 {
   "name": "elliotisms",
-  "description": "reusable atomic functions for the dumb shit i reuse all the time. only about half are jokes.",
-  "author": "ɛʟʟɨօȶ b  =^._.^= ∫ <elliot@email.gd>",
-  "license": "The Unlicense",
-  "main": "index.js",
-  "engines": {
-    "node": ">=20"
-  },
   "version": "0.0.42",
+  "description": "reusable atomic functions for the dumb shit i reuse all the time. only about half are jokes.",
   "keywords": [
     "radical",
     "utilities",
@@ -18,18 +12,9 @@
     "illegal",
     "marijuana"
   ],
-  "os": [
-    "darwin",
-    "linux"
-  ],
+  "license": "The Unlicense",
+  "author": "ɛʟʟɨօȶ b  =^._.^= ∫ <elliot@email.gd>",
   "type": "module",
-  "dependencies": {
-    "reed-solomon": "^4.0.0",
-    "text-case": "^1.0.9"
-  },
-  "scripts": {
-    "release": "release-it --ci"
-  },
   "exports": {
     ".": "./index.js",
     "./eslint-config": "./eslint.config.js",
@@ -55,23 +40,12 @@
     "./the-epoch": "./lib/the-epoch.js",
     "./truncate-filename": "./lib/truncate-filename.js",
     "./yoctoid": "./lib/yoctoid.js",
-    "./xxhash": "./lib/xxhash.js"
+    "./xxhash": "./lib/xxhash.js",
+    "./timeAgo": "./lib/time-ago.js"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.5.0",
-    "@release-it/bumper": "^6.0.1",
-    "@stylistic/eslint-plugin-js": "^1.7.2",
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-no-secrets": "^1.0.2",
-    "eslint-plugin-perfectionist": "^2.10.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-security": "^3.0.1",
-    "eslint-plugin-simple-import-sort": "^12.1.0",
-    "eslint-plugin-sonarjs": "^1.0.3",
-    "eslint-plugin-unicorn": "^53.0.0",
-    "prettier": "^3.2.5",
-    "release-it": "^17.3.0"
+  "main": "index.js",
+  "scripts": {
+    "release": "release-it --ci"
   },
   "prettier": {
     "arrowParens": "always",
@@ -93,5 +67,33 @@
     "tabWidth": 2,
     "useTabs": false,
     "embeddedLanguageFormatting": "auto"
-  }
+  },
+  "dependencies": {
+    "eslint-plugin-package-json": "^0.15.2",
+    "reed-solomon": "^4.0.0",
+    "text-case": "^1.0.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@release-it/bumper": "^6.0.1",
+    "@stylistic/eslint-plugin-js": "^1.7.2",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-no-secrets": "^1.0.2",
+    "eslint-plugin-perfectionist": "^2.10.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-security": "^3.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "eslint-plugin-sonarjs": "^1.0.3",
+    "eslint-plugin-unicorn": "^53.0.0",
+    "prettier": "^3.2.5",
+    "release-it": "^17.3.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ]
 }
