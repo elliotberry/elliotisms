@@ -6,6 +6,7 @@
 *.o
 *.so
 test.txt
+.coderobot
 # Logs and databases
 *.log
 ./test_directory
