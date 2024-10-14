@@ -41,6 +41,7 @@
     "./truncate-filename": "./lib/truncate-filename.js",
     "./yoctoid": "./lib/yoctoid.js",
     "./xxhash": "./lib/xxhash.js",
+    "./object-sync": "./lib/object-sync.js",
     "./timeAgo": "./lib/time-ago.js"
   },
   "main": "index.js",
@@ -74,20 +75,21 @@
     "text-case": "^1.0.9"
   },
   "devDependencies": {
-    "@eslint/js": "^9.11.1",
+    "@eslint/js": "^9.12.0",
     "@release-it/bumper": "^6.0.1",
-    "@stylistic/eslint-plugin-js": "^2.8.0",
-    "eslint": "^9.11.1",
+    "@stylistic/eslint-plugin-js": "^2.9.0",
+    "eslint": "^9.12.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-no-secrets": "^1.0.2",
-    "eslint-plugin-perfectionist": "^3.7.0",
+    "eslint-plugin-perfectionist": "^3.8.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-security": "^3.0.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-sonarjs": "^2.0.2",
-    "eslint-plugin-unicorn": "^55.0.0",
+    "eslint-plugin-sonarjs": "^2.0.3",
+    "eslint-plugin-unicorn": "^56.0.0",
     "prettier": "^3.3.3",
-    "release-it": "^17.6.0"
+    "release-it": "^17.8.2"
   },
   "engines": {
     "node": ">=20"
