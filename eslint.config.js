@@ -61,7 +61,10 @@ export default [
             'unicorn/prefer-switch': 'off',
             'unicorn/prefer-top-level-await': 'off',
             'unicorn/prevent-abbreviations': 'warn',
-            "security/detect-non-literal-fs-filename": "off"
+            "security/detect-non-literal-fs-filename": "off",
+            "sonarjs/cognitive-complexity": "warn",
+            "n/no-unpublished-import": "off",
+            "security/detect-object-injection": "off"
         },
     },
 ]
