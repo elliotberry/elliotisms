@@ -70,28 +70,28 @@
     "embeddedLanguageFormatting": "auto"
   },
   "dependencies": {
-    "eslint-plugin-package-json": "^0.15.6",
+    "eslint-plugin-package-json": "^0.52.1",
     "reed-solomon": "^4.0.0",
-    "text-case": "^1.0.9"
+    "text-case": "^1.2.4"
   },
   "devDependencies": {
-    "@eslint/js": "^9.15.0",
-    "@stylistic/eslint-plugin-js": "^2.11.0",
-    "eslint": "^9.15.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-n": "^17.13.2",
-    "eslint-plugin-no-secrets": "^1.1.2",
+    "@eslint/js": "^9.33.0",
+    "@stylistic/eslint-plugin-js": "^4.4.1",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-n": "^17.21.3",
+    "eslint-plugin-no-secrets": "^2.2.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-perfectionist": "^4.0.3",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-perfectionist": "^4.15.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-security": "^3.0.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-sonarjs": "^2.0.4",
-    "eslint-plugin-unicorn": "^56.0.1",
-    "prettier": "^3.3.3",
-    "release-it": "^17.10.0"
+    "eslint-plugin-sonarjs": "^3.0.4",
+    "eslint-plugin-unicorn": "^60.0.0",
+    "prettier": "^3.6.2",
+    "release-it": "^19.0.4"
   },
   "engines": {
     "node": ">=20"
