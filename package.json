@@ -42,7 +42,7 @@
     "./yoctoid": "./lib/yoctoid.js",
     "./xxhash": "./lib/xxhash.js",
     "./object-sync": "./lib/object-sync.js",
-    "./timeAgo": "./lib/time-ago.js"
+    "./time-ago": "./lib/time-ago.js"
   },
   "main": "index.js",
   "scripts": {
