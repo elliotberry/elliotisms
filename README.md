@@ -38,9 +38,33 @@ This function creates a folder if it does not exist.
 ### `delete-directory-and-files`
 This function deletes a directory and all files in it. It's useful for cleaning up after tests. Returns: Promise.
 
-### `deterministic-animal-id`
-Given all English animal mononyms I could find, this function returns a deterministic animal ID based on a given hex string. Returns: String.
+### `ensure-env`
+Ensures a `.env` file exists at the project root by copying from `.example.env` if missing. Returns: Promise (void).
 
+### `object-sync`
+Creates an observable object that automatically syncs to a JSON file when properties change, with debounced writes and save-on-exit behavior.
+
+**Arguments:**
+- `initialData` (object, default `{}`): Initial object state.
+- `fileName` (string, default `observedObject.json`): Output JSON filename (saved next to the module).
+- `debounceTime` (number, default `200`): Debounce delay in milliseconds.
+
+**Usage:**
+```
+import ObservableObject from 'elliotisms/object-sync'
+const store = new ObservableObject({ count: 0 })
+store.observedObject.count += 1
+```
+
+### `time-ago`
+Formats a given date/time into a human-friendly relative string (e.g., "2 days ago"). Supports compact output and custom strings.
+
+**Arguments:**
+- `data` (Date | string | number): A Date, parseable string, or timestamp.
+- `options` (object): `{ compact?: boolean, customStrings?: object, granularity?: 'auto' | 'detailed' }`.
+
+**Returns:**
+- String (e.g., `"3h"`, `"yesterday"`, `"2 months ago"`) or `null` if no input.
 
 ### `exec`
 Just my version of process exec. Takes in a single command string.
