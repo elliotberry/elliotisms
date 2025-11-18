@@ -36,6 +36,7 @@
     "./promise-batch-all": "./lib/promise-batch-all.js",
     "./replace-all": "./lib/replace-all.js",
     "./return-safe-filepath": "./lib/return-safe-filepath.js",
+    "./silence-import": "./lib/silence-import.js",
     "./slugify": "./lib/slugify.js",
     "./the-epoch": "./lib/the-epoch.js",
     "./truncate-filename": "./lib/truncate-filename.js",
@@ -71,6 +72,7 @@
     "embeddedLanguageFormatting": "auto"
   },
   "dependencies": {
+    "elliotisms": "^0.0.56",
     "eslint-plugin-package-json": "^0.52.1",
     "reed-solomon": "^4.0.0",
     "text-case": "^1.2.4"
