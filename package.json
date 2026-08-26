@@ -6,7 +6,7 @@
     "radical",
     "utilities",
     "util",
-    "node22",
+    "node26",
     "modern",
     "anime",
     "illegal",
@@ -44,7 +44,8 @@
     "./xxhash": "./lib/xxhash.js",
     "./object-sync": "./lib/object-sync.js",
     "./time-ago": "./lib/time-ago.js",
-    "./ensure-env": "./lib/ensure-env.js"
+    "./ensure-env": "./lib/ensure-env.js",
+    "./base-90": "./lib/base-90.js"
   },
   "main": "index.js",
   "scripts": {
